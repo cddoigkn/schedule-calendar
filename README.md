@@ -10,6 +10,6 @@ This activity required a lot of usage of jquery in order to obtain information, 
 
 A link to the github portfolio repository: [https://github.com/cddoigkn/schedule-calendar](https://github.com/cddoigkn/schedule-calendar)
 
-A link to the quiz website: [https://cddoigkn.github.io/schedule-calendar](https://cddoigkn.github.io/schedule-calendar)
+A link to the calendar website: [https://cddoigkn.github.io/schedule-calendar](https://cddoigkn.github.io/schedule-calendar)
 
 ![This is a screenshot of the calendar](./Develop/images/workdaycalendar.png)
