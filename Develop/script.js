@@ -1,3 +1,9 @@
+$(".time-block").each(function(){
+  var key = $(this).attr("id");
+  var item = localStorage.getItem(key);
+  $(this).find("textarea").val(item);
+});
+
 var timeClock = setInterval(function(){
    
    // updates clock on page with current time, day, month, and year
@@ -34,9 +40,8 @@ var timeClock = setInterval(function(){
     var interval = setInterval(function(){
       $(messageEl).addClass('hidden');
       clearInterval(interval);
-    })
-    console.log(parentId, userText);
-  }, 5000);
+    }, 5000)
+  });
   // display message when saved
   // "Activity Saved"
   // make function to display message
